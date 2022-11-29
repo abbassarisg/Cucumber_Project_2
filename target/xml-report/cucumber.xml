@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="204.389">
+    <testcase classname="US003 Registration sayfasında guclu sifre girilmeli ve" name="TC_001 Daha guclu sifre en az 1 kucuk  harf olmali ve&quot;Password strength&quot; seviyesinin degistigi gorulmeli" time="31.515">
+        <system-out>
+            <![CDATA[Given Belirtilen Url'e gidilir..............................................passed
+Then Kullanici sayfada sag usste bulunan kisi iconuna tiklar ve sign in ve register segmesi acilir.passed
+And Acilan kutucukta register secenegini tiklanir...........................passed
+And Acilanin Register sayfasi oldugu dogrulanir.............................passed
+Then Password kismina "123456a" girilir Password streght renk seviyesini degisti test edilir.passed
+And Acilan sayfa kapatilir..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US003 Registration sayfasında guclu sifre girilmeli ve" name="TC_002 Sifre en az bir buyuk harf icermeli ve &quot;Password strength&quot; seviyesinin degistigi gorulmeli" time="21.696">
+        <system-out>
+            <![CDATA[Given Belirtilen Url'e gidilir..............................................passed
+Then Kullanici sayfada sag usste bulunan kisi iconuna tiklar ve sign in ve register segmesi acilir.passed
+And Acilan kutucukta register secenegini tiklanir...........................passed
+And Acilanin Register sayfasi oldugu dogrulanir.............................passed
+Then Password kismina "123456A" girilir Password streght renk seviyesini degisti test edilir.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US003 Registration sayfasında guclu sifre girilmeli ve" name="TC_003 Sifre en az bir rakam icermeli ve &quot;Password strenght&quot; seviyesinin degistigi gorulmeli" time="1.086">
+        <system-out>
+            <![CDATA[Given Belirtilen Url'e gidilir..............................................passed
+Then Kullanici sayfada sag usste bulunan kisi iconuna tiklar ve sign in ve register segmesi acilir.passed
+And Acilan kutucukta register secenegini tiklanir...........................passed
+And Acilanin Register sayfasi oldugu dogrulanir.............................passed
+Then Password kismina "aaaaaa1" girilir Password streght renk seviyesini degisti test edilir.passed
+And Acilan sayfa kapatilir..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US003 Registration sayfasında guclu sifre girilmeli ve" name="TC_004 Sifre en az bir ozel karakter icermeli ve &quot;Password strenght&quot; seviyesinin degistigi gorulmeli" time="31.918">
+        <system-out>
+            <![CDATA[Given Belirtilen Url'e gidilir..............................................passed
+Then Kullanici sayfada sag usste bulunan kisi iconuna tiklar ve sign in ve register segmesi acilir.passed
+And Acilan kutucukta register secenegini tiklanir...........................passed
+And Acilanin Register sayfasi oldugu dogrulanir.............................passed
+Then Password kismina "aaaaaa*" girilir Password streght renk seviyesini degisti test edilir.passed
+And Acilan sayfa kapatilir..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US003 Registration sayfasında guclu sifre girilmeli ve" name="TC_005 Guclu bir parola icin sifre en az 7 karakterden olusmalidir.#Negatif test" time="28.084">
+        <system-out>
+            <![CDATA[Given Belirtilen Url'e gidilir..............................................passed
+Then Kullanici sayfada sag usste bulunan kisi iconuna tiklar ve sign in ve register segmesi acilir.passed
+And Acilan kutucukta register secenegini tiklanir...........................passed
+And Acilanin Register sayfasi oldugu dogrulanir.............................passed
+Then Password kismina "aaaA1*" girilir Password streght renk seviyesini degisti test edilir.passed
+And Acilan sayfa kapatilir..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US003 Registration sayfasında guclu sifre girilmeli ve" name="TC_006 Guclu bir parola icin sifre en az 7 karakterden olusmalidir" time="33.609">
+        <system-out>
+            <![CDATA[Given Belirtilen Url'e gidilir..............................................passed
+Then Kullanici sayfada sag usste bulunan kisi iconuna tiklar ve sign in ve register segmesi acilir.passed
+And Acilan kutucukta register secenegini tiklanir...........................passed
+And Acilanin Register sayfasi oldugu dogrulanir.............................passed
+Then Password kismina "aaaaA1*" girilir Password streght renk seviyesini degisti test edilir.passed
+And Acilan sayfa kapatilir..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US003 Registration sayfasında guclu sifre girilmeli ve" name="TC_007 Kullanici parolanin kabulu icin en az 4 karakter girilmelidir" time="29.23">
+        <system-out>
+            <![CDATA[Given Belirtilen Url'e gidilir..............................................passed
+Then Kullanici sayfada sag usste bulunan kisi iconuna tiklar ve sign in ve register segmesi acilir.passed
+And Acilan kutucukta register secenegini tiklanir...........................passed
+And Acilanin Register sayfasi oldugu dogrulanir.............................passed
+Then Password kismina "A1*" girilir Password streght renk seviyesini degisti test edilir.passed
+And Acilan sayfa kapatilir..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US003 Registration sayfasında guclu sifre girilmeli ve" name="TC_008 Kullanici icerisinde kucuk harf, buyuk harf ve rakam icermeyen sifre (Ascii code 128-149 ve 151-174)" time="26.111">
+        <system-out>
+            <![CDATA[Given Belirtilen Url'e gidilir..............................................passed
+Then Kullanici sayfada sag usste bulunan kisi iconuna tiklar ve sign in ve register segmesi acilir.passed
+And Acilan kutucukta register secenegini tiklanir...........................passed
+And Acilanin Register sayfasi oldugu dogrulanir.............................passed
+Given : Kullanici Ascii Code "128-149" den sonraki karakterkerden olusan bir sifre gonderir.passed
+Then : Kullanici Password Strenght "background-color: rgb(0, 255, 0);" degistigini test eder.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US003 Registration sayfasında guclu sifre girilmeli ve" name="TC_008 Kullanici icerisinde kucuk harf, buyuk harf ve rakam icermeyen sifre (Ascii code 128-149 ve 151-174) 2" time="0.921">
+        <system-out>
+            <![CDATA[Given Belirtilen Url'e gidilir..............................................passed
+Then Kullanici sayfada sag usste bulunan kisi iconuna tiklar ve sign in ve register segmesi acilir.passed
+And Acilan kutucukta register secenegini tiklanir...........................passed
+And Acilanin Register sayfasi oldugu dogrulanir.............................passed
+Given : Kullanici Ascii Code "151-174" den sonraki karakterkerden olusan bir sifre gonderir.passed
+Then : Kullanici Password Strenght "background-color: rgb(0, 255, 0);" degistigini test eder.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
