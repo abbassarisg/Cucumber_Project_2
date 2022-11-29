@@ -75,11 +75,11 @@
             <artifactId>json</artifactId>
             <version>20160810</version>
         </dependency>
-        <!--    <dependency>
+           <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.4.0</version>
-        </dependency> -->
+        </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
